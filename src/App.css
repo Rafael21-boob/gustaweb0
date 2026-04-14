@@ -1,0 +1,61 @@
+main{
+  width: 100%;
+  height: 100vh;
+}
+#img{
+  background: url('./assets/car.webp');
+  background-size: cover;
+  background-position-x: 57%;
+  width: 50%;
+  height: 100vh;
+  float: left;
+  max-width: 100%;
+  box-shadow: 10px 0px 10px -5px #00000081;
+}
+
+#login{
+  /* background-color: rgb(190, 190, 190); */
+  width: 50%;
+  height: 100vh;
+  float: left;
+  display: flex;
+}
+
+#login img{
+  max-width: 100%;
+  width: 400px;
+  height: auto;
+  margin-left: 8%;
+  margin-top: 8%;
+}
+section{
+  width: 60%;
+  height: 60vh;
+  background-color: rgba(221, 221, 221, 0.534);
+  margin-left: 20%;
+  margin-top: 20%;
+  border-radius: 25px;
+}
+section h2{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  margin-left: 24%;
+  margin-top: 5%;
+  font-size: 1.1em;
+}
+section input{
+  width: 52%;
+  height: 30px;
+  margin-left: 24% ;
+  margin-top: 4px;
+  border: none;
+  border-radius: 5px;
+  padding-left: 5px;
+  box-shadow: 2px 2px 4px #0000007c;
+}
+section button{
+  width: 50%;
+  height: 30px;
+  margin-left: 25% ;
+  margin-top: 20px;
+
+}
